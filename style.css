@@ -13,7 +13,7 @@ h1{
     font-size: 50px;
 }
 
-.display{
+.screen{
     width: auto;
     border: 2px solid;
     min-height: 80px;
@@ -45,18 +45,18 @@ h1{
     padding: 15px;
     border: 2px solid;
     margin: 5px;
-    border-radius: 20px;
+    border-radius: 8px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
 }
 
-.clearBtn, .deleteBtn{
+#clearBtn, #deleteBtn{
     padding: 10px 20px;
     width: auto;
     border: 2px solid;
     margin: 5px;
-    border-radius: 20px;
+    border-radius: 8px;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 20px;
     font-weight: 700;
@@ -66,12 +66,12 @@ h1{
     background-color: rgb(151, 239, 239) ;
 }
 
-.clearBtn{
+#clearBtn{
     color: aliceblue;
     background-color: red;
 }
 
-.deleteBtn{
+#deleteBtn{
     color: aliceblue;
     background-color: aqua;
 }
@@ -81,10 +81,20 @@ h1{
     color: white;
 }
 
-.clearBtn:hover{
+#clearBtn:hover{
     background-color: rgb(204, 36, 36);
 }
 
-.deleteBtn:hover{
+#deleteBtn:hover{
     background-color: darkcyan;
+}
+
+.screen-last {
+  min-height: 32px;
+  font-size: 20px;
+}
+
+.screen-current {
+  min-height: 64px;
+  font-size: 40px;
 }
